@@ -1,0 +1,30 @@
+API Paths for Testing:
+
+1. User Registration:
+   - POST /api/register/
+   - Example Request Body:
+     {
+         "username": "example_user",
+         "email": "example@example.com",
+         "password": "example_password"
+     }
+
+2. User Login:
+   - POST /api/login/
+   - Example Request Body:
+     {
+         "username": "example_user",
+         "password": "example_password"
+     }
+
+3. Menu Items:
+   - GET /api/menu/
+   - POST /api/menu/
+   - PUT /api/menu/{menu_item_id}/
+   - DELETE /api/menu/{menu_item_id}/
+
+4. Table Bookings:
+   - GET /api/bookings/
+   - POST /api/bookings/
+   - PUT /api/bookings/{booking_id}/
+   - DELETE /api/bookings/{booking_id}/
